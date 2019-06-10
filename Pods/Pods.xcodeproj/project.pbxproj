@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED5D8CD762EACE1EDA46FAF5A9F61EA /* Pods-EAIntroViewSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 017656A6011AC176E8A97DB436929240 /* Pods-EAIntroViewSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F5A1A63E4CEA8236CFE948D23737D38 /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3208307DD092D34D717A4CF62A2625C9 /* EAIntroView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		126EE712ABBFA5FF2A8FAB22B70B1FDC /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D84D93ADCBC1F120391F0182A5B5588 /* EARestrictedScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1AC1BD305985B7976BAE20F8A7A3DA57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BE8B6F37028BDF920167F477D3DBD6 /* Foundation.framework */; };
+		29B3FECAA30C2761A51E5CA0BB299CA5 /* EARestrictedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D706BD7BC781991FD94AFC1E44AFB979 /* EARestrictedScrollView-dummy.m */; };
+		4EDF331B1A38D74B823F2013D9FE2DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BE8B6F37028BDF920167F477D3DBD6 /* Foundation.framework */; };
+		640D4C41F9DE5BE685636482CEB230FF /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF151F3E3DA7432DD9E3480412821B7 /* EAIntroPage.m */; };
+		758E21ED66D34F740E90288B7729CFE8 /* EARestrictedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A04229CFA96A9299C050E981F0C678 /* EARestrictedScrollView.framework */; };
+		7B463A4961119965DA92FCDFBE8B86B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BE8B6F37028BDF920167F477D3DBD6 /* Foundation.framework */; };
+		9AA4864F97BA8F7079AFA63C23C42658 /* EAIntroView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4210DC55C957DF7B315F4282EB8BE6BE /* EAIntroView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9FDCC83CA5DE931E94C712CC0B840EA /* EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7255EB5439BCDED35F25EF575CD80B /* EAIntroView-dummy.m */; };
+		B209A79641B823A524C4CEB364B7D42B /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC9BD93084169EF39F7D7E1322400B9 /* EAIntroPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA6B07F8BE45D6F3D1190DFDD5349AB /* EARestrictedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E696D522DEBC3F41FA896265B000C2 /* EARestrictedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD999EB9D7CFF6BAEF1AB48C20B33F80 /* EARestrictedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C5AC1E1834AEBB7675B2E9F507C08D /* EARestrictedScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD8748F2DA4771DDCBBE16960008E9A /* Pods-EAIntroViewSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B93981255319F94059AD5A5F6093AB /* Pods-EAIntroViewSample-dummy.m */; };
+		F65A464A12FB8D679A7C74D86A670085 /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C129505C9F293FDBD570122E5A445A9 /* EAIntroView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C7CD153B8790F81297EFBE00E67D738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5D5F25300964D7791790EA262460A0;
+			remoteInfo = EAIntroView;
+		};
+		382803FA3F5D4D73040D13FDFEC05051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EF4E94EC7CCDDCF4BC86C414A2963A;
+			remoteInfo = EARestrictedScrollView;
+		};
+		DC5D86616A8B91977DE1785EF2655948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EF4E94EC7CCDDCF4BC86C414A2963A;
+			remoteInfo = EARestrictedScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017656A6011AC176E8A97DB436929240 /* Pods-EAIntroViewSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EAIntroViewSample-umbrella.h"; sourceTree = "<group>"; };
+		09A04229CFA96A9299C050E981F0C678 /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EARestrictedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F60848EC8E4D586B21E17E8BD37571E /* Pods-EAIntroViewSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EAIntroViewSample-frameworks.sh"; sourceTree = "<group>"; };
+		25C5AC1E1834AEBB7675B2E9F507C08D /* EARestrictedScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-umbrella.h"; sourceTree = "<group>"; };
+		3208307DD092D34D717A4CF62A2625C9 /* EAIntroView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroView.h; path = EAIntroView/EAIntroView.h; sourceTree = "<group>"; };
+		3C129505C9F293FDBD570122E5A445A9 /* EAIntroView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroView.m; path = EAIntroView/EAIntroView.m; sourceTree = "<group>"; };
+		3D84D93ADCBC1F120391F0182A5B5588 /* EARestrictedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EARestrictedScrollView.m; path = EARestrictedScrollView/EARestrictedScrollView.m; sourceTree = "<group>"; };
+		4210DC55C957DF7B315F4282EB8BE6BE /* EAIntroView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-umbrella.h"; sourceTree = "<group>"; };
+		45E5DD48AEE74CD6703809A97D269008 /* Pods-EAIntroViewSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAIntroViewSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		53BE8B6F37028BDF920167F477D3DBD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		53C78C83737D75C2E71BDB1921D18506 /* EARestrictedScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EARestrictedScrollView.xcconfig; sourceTree = "<group>"; };
+		64BFDA7DAA934A4D2E38DCF4767085FF /* EAIntroView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EAIntroView.modulemap; sourceTree = "<group>"; };
+		664733AA4075B22C00DA08972362961D /* EARestrictedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-prefix.pch"; sourceTree = "<group>"; };
+		69B3FC191AEC65E62EA1E8ACDC216E4F /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EARestrictedScrollView.framework; path = EARestrictedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8710C63BAEF0F74555AD3FDCE6516528 /* EARestrictedScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EARestrictedScrollView-Info.plist"; sourceTree = "<group>"; };
+		8F6695905E3DF073FA399A5B059C62A1 /* EAIntroView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EAIntroView-Info.plist"; sourceTree = "<group>"; };
+		92B93981255319F94059AD5A5F6093AB /* Pods-EAIntroViewSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EAIntroViewSample-dummy.m"; sourceTree = "<group>"; };
+		966B5276DC2AAB50CD87EC32951D0E4F /* Pods-EAIntroViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAIntroViewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		9D7255EB5439BCDED35F25EF575CD80B /* EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EAIntroView-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A44E23FB8D137C33BD1F7C133F9F5A60 /* Pods-EAIntroViewSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EAIntroViewSample.modulemap"; sourceTree = "<group>"; };
+		B6E696D522DEBC3F41FA896265B000C2 /* EARestrictedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EARestrictedScrollView.h; path = EARestrictedScrollView/EARestrictedScrollView.h; sourceTree = "<group>"; };
+		BAD7FE4915FCCF5EEA7CFDBF4AC9648F /* EAIntroView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EAIntroView.xcconfig; sourceTree = "<group>"; };
+		D29473E557C3DB740E234D2458F4DD67 /* EAIntroView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-prefix.pch"; sourceTree = "<group>"; };
+		D706BD7BC781991FD94AFC1E44AFB979 /* EARestrictedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EARestrictedScrollView-dummy.m"; sourceTree = "<group>"; };
+		DCF151F3E3DA7432DD9E3480412821B7 /* EAIntroPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroPage.m; path = EAIntroView/EAIntroPage.m; sourceTree = "<group>"; };
+		DE50E7A205B12109CAE289B2803E3CE5 /* Pods-EAIntroViewSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EAIntroViewSample-Info.plist"; sourceTree = "<group>"; };
+		DFC9BD93084169EF39F7D7E1322400B9 /* EAIntroPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroPage.h; path = EAIntroView/EAIntroPage.h; sourceTree = "<group>"; };
+		E19E92A0F393563F5BBEF582E63C6EA0 /* Pods_EAIntroViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EAIntroViewSample.framework; path = "Pods-EAIntroViewSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55BF4C2C9EB2C53EA9AF96F10DD084F /* Pods-EAIntroViewSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EAIntroViewSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F57D39291E31DAC2BBCECA6620AA7938 /* EARestrictedScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EARestrictedScrollView.modulemap; sourceTree = "<group>"; };
+		F64C3A1C0CA0FA4784630ACBBD1587D9 /* EAIntroView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EAIntroView.framework; path = EAIntroView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77077D19901B157EE184B62245BD718 /* Pods-EAIntroViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EAIntroViewSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CD9A3343AF63FE723395C999417297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDF331B1A38D74B823F2013D9FE2DFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6704B1AA98C6F57177CD9C32ACBBC200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E21ED66D34F740E90288B7729CFE8 /* EARestrictedScrollView.framework in Frameworks */,
+				7B463A4961119965DA92FCDFBE8B86B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845990376793BD15416971E66814D2B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC1BD305985B7976BAE20F8A7A3DA57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077E47FBFE2A65C58E8452AF7AB754E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64BFDA7DAA934A4D2E38DCF4767085FF /* EAIntroView.modulemap */,
+				BAD7FE4915FCCF5EEA7CFDBF4AC9648F /* EAIntroView.xcconfig */,
+				9D7255EB5439BCDED35F25EF575CD80B /* EAIntroView-dummy.m */,
+				8F6695905E3DF073FA399A5B059C62A1 /* EAIntroView-Info.plist */,
+				D29473E557C3DB740E234D2458F4DD67 /* EAIntroView-prefix.pch */,
+				4210DC55C957DF7B315F4282EB8BE6BE /* EAIntroView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EAIntroView";
+			sourceTree = "<group>";
+		};
+		1ACDBA6EF0A85BFA5C3FFE3EBAEEEA55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0BC26AC342C7E12D6DDCEFFF8A6A103 /* EAIntroView */,
+				EF53E9FA87BF0A614107E08A7413B4F8 /* EARestrictedScrollView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B55611DAA7B932F8C79D246ED85EA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64C3A1C0CA0FA4784630ACBBD1587D9 /* EAIntroView.framework */,
+				69B3FC191AEC65E62EA1E8ACDC216E4F /* EARestrictedScrollView.framework */,
+				E19E92A0F393563F5BBEF582E63C6EA0 /* Pods_EAIntroViewSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		781F3C7E85ECD6C9A003B56F59765298 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F57D39291E31DAC2BBCECA6620AA7938 /* EARestrictedScrollView.modulemap */,
+				53C78C83737D75C2E71BDB1921D18506 /* EARestrictedScrollView.xcconfig */,
+				D706BD7BC781991FD94AFC1E44AFB979 /* EARestrictedScrollView-dummy.m */,
+				8710C63BAEF0F74555AD3FDCE6516528 /* EARestrictedScrollView-Info.plist */,
+				664733AA4075B22C00DA08972362961D /* EARestrictedScrollView-prefix.pch */,
+				25C5AC1E1834AEBB7675B2E9F507C08D /* EARestrictedScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EARestrictedScrollView";
+			sourceTree = "<group>";
+		};
+		7C8AB766028A4A6B5E476DFEB828FB2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09A04229CFA96A9299C050E981F0C678 /* EARestrictedScrollView.framework */,
+				961C490188D4F4C10C1E197F90984D27 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		961C490188D4F4C10C1E197F90984D27 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53BE8B6F37028BDF920167F477D3DBD6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B20C5C2B41EC707BE28B2F79F35D3698 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F58FCE6D4C817E8D9DE9362612DA2ECA /* Pods-EAIntroViewSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0BC26AC342C7E12D6DDCEFFF8A6A103 /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				DFC9BD93084169EF39F7D7E1322400B9 /* EAIntroPage.h */,
+				DCF151F3E3DA7432DD9E3480412821B7 /* EAIntroPage.m */,
+				3208307DD092D34D717A4CF62A2625C9 /* EAIntroView.h */,
+				3C129505C9F293FDBD570122E5A445A9 /* EAIntroView.m */,
+				077E47FBFE2A65C58E8452AF7AB754E7 /* Support Files */,
+			);
+			name = EAIntroView;
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7C8AB766028A4A6B5E476DFEB828FB2A /* Frameworks */,
+				1ACDBA6EF0A85BFA5C3FFE3EBAEEEA55 /* Pods */,
+				4B55611DAA7B932F8C79D246ED85EA76 /* Products */,
+				B20C5C2B41EC707BE28B2F79F35D3698 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EF53E9FA87BF0A614107E08A7413B4F8 /* EARestrictedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B6E696D522DEBC3F41FA896265B000C2 /* EARestrictedScrollView.h */,
+				3D84D93ADCBC1F120391F0182A5B5588 /* EARestrictedScrollView.m */,
+				781F3C7E85ECD6C9A003B56F59765298 /* Support Files */,
+			);
+			name = EARestrictedScrollView;
+			path = EARestrictedScrollView;
+			sourceTree = "<group>";
+		};
+		F58FCE6D4C817E8D9DE9362612DA2ECA /* Pods-EAIntroViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				A44E23FB8D137C33BD1F7C133F9F5A60 /* Pods-EAIntroViewSample.modulemap */,
+				E55BF4C2C9EB2C53EA9AF96F10DD084F /* Pods-EAIntroViewSample-acknowledgements.markdown */,
+				45E5DD48AEE74CD6703809A97D269008 /* Pods-EAIntroViewSample-acknowledgements.plist */,
+				92B93981255319F94059AD5A5F6093AB /* Pods-EAIntroViewSample-dummy.m */,
+				0F60848EC8E4D586B21E17E8BD37571E /* Pods-EAIntroViewSample-frameworks.sh */,
+				DE50E7A205B12109CAE289B2803E3CE5 /* Pods-EAIntroViewSample-Info.plist */,
+				017656A6011AC176E8A97DB436929240 /* Pods-EAIntroViewSample-umbrella.h */,
+				966B5276DC2AAB50CD87EC32951D0E4F /* Pods-EAIntroViewSample.debug.xcconfig */,
+				F77077D19901B157EE184B62245BD718 /* Pods-EAIntroViewSample.release.xcconfig */,
+			);
+			name = "Pods-EAIntroViewSample";
+			path = "Target Support Files/Pods-EAIntroViewSample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29F996289286885B5B7088158FE3CD24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED5D8CD762EACE1EDA46FAF5A9F61EA /* Pods-EAIntroViewSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D708132E318A2F5510595618AA8E6F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD999EB9D7CFF6BAEF1AB48C20B33F80 /* EARestrictedScrollView-umbrella.h in Headers */,
+				CCA6B07F8BE45D6F3D1190DFDD5349AB /* EARestrictedScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B791C1B19F7BB172EB6F0B2BAD5E9F13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B209A79641B823A524C4CEB364B7D42B /* EAIntroPage.h in Headers */,
+				9AA4864F97BA8F7079AFA63C23C42658 /* EAIntroView-umbrella.h in Headers */,
+				0F5A1A63E4CEA8236CFE948D23737D38 /* EAIntroView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		407305F2F632E2B722663757CA3A10BE /* Pods-EAIntroViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07228769F7EF03D5FACEB93C0B893C1 /* Build configuration list for PBXNativeTarget "Pods-EAIntroViewSample" */;
+			buildPhases = (
+				29F996289286885B5B7088158FE3CD24 /* Headers */,
+				289FD5B3DDF9D8DAE94E8EA98C559A8E /* Sources */,
+				845990376793BD15416971E66814D2B9 /* Frameworks */,
+				FC747916F62F8C32DD72537CD683713D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7FCC83045AF00249521EDE22C81C3C /* PBXTargetDependency */,
+				2549E40C300E2F4605C2B6EDB4AE4B4A /* PBXTargetDependency */,
+			);
+			name = "Pods-EAIntroViewSample";
+			productName = "Pods-EAIntroViewSample";
+			productReference = E19E92A0F393563F5BBEF582E63C6EA0 /* Pods_EAIntroViewSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83EF4E94EC7CCDDCF4BC86C414A2963A /* EARestrictedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D187ACB7C441EFAAED646F821EC39D7B /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */;
+			buildPhases = (
+				6D708132E318A2F5510595618AA8E6F1 /* Headers */,
+				9032C074C6C21BBE1AEDC63C639FAFCB /* Sources */,
+				18CD9A3343AF63FE723395C999417297 /* Frameworks */,
+				3B8BF7E7B83D6084F90C0D252BACBC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EARestrictedScrollView;
+			productName = EARestrictedScrollView;
+			productReference = 69B3FC191AEC65E62EA1E8ACDC216E4F /* EARestrictedScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC5D5F25300964D7791790EA262460A0 /* EAIntroView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B27548BD0FBA0098B2293FD8C52991 /* Build configuration list for PBXNativeTarget "EAIntroView" */;
+			buildPhases = (
+				B791C1B19F7BB172EB6F0B2BAD5E9F13 /* Headers */,
+				AE2F2BB7AC9ED31A3EE34415954F2336 /* Sources */,
+				6704B1AA98C6F57177CD9C32ACBBC200 /* Frameworks */,
+				E76915F6BAA82A4435DDE5204A7E4E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44DAFD6884AC9806459DB64CF12A4CF /* PBXTargetDependency */,
+			);
+			name = EAIntroView;
+			productName = EAIntroView;
+			productReference = F64C3A1C0CA0FA4784630ACBBD1587D9 /* EAIntroView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4B55611DAA7B932F8C79D246ED85EA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5D5F25300964D7791790EA262460A0 /* EAIntroView */,
+				83EF4E94EC7CCDDCF4BC86C414A2963A /* EARestrictedScrollView */,
+				407305F2F632E2B722663757CA3A10BE /* Pods-EAIntroViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8BF7E7B83D6084F90C0D252BACBC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76915F6BAA82A4435DDE5204A7E4E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC747916F62F8C32DD72537CD683713D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289FD5B3DDF9D8DAE94E8EA98C559A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD8748F2DA4771DDCBBE16960008E9A /* Pods-EAIntroViewSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9032C074C6C21BBE1AEDC63C639FAFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B3FECAA30C2761A51E5CA0BB299CA5 /* EARestrictedScrollView-dummy.m in Sources */,
+				126EE712ABBFA5FF2A8FAB22B70B1FDC /* EARestrictedScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2F2BB7AC9ED31A3EE34415954F2336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640D4C41F9DE5BE685636482CEB230FF /* EAIntroPage.m in Sources */,
+				A9FDCC83CA5DE931E94C712CC0B840EA /* EAIntroView-dummy.m in Sources */,
+				F65A464A12FB8D679A7C74D86A670085 /* EAIntroView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2549E40C300E2F4605C2B6EDB4AE4B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EARestrictedScrollView;
+			target = 83EF4E94EC7CCDDCF4BC86C414A2963A /* EARestrictedScrollView */;
+			targetProxy = 382803FA3F5D4D73040D13FDFEC05051 /* PBXContainerItemProxy */;
+		};
+		AA7FCC83045AF00249521EDE22C81C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EAIntroView;
+			target = CC5D5F25300964D7791790EA262460A0 /* EAIntroView */;
+			targetProxy = 2C7CD153B8790F81297EFBE00E67D738 /* PBXContainerItemProxy */;
+		};
+		D44DAFD6884AC9806459DB64CF12A4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EARestrictedScrollView;
+			target = 83EF4E94EC7CCDDCF4BC86C414A2963A /* EARestrictedScrollView */;
+			targetProxy = DC5D86616A8B91977DE1785EF2655948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A933485C92C7900B8D13B0908F485AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD7FE4915FCCF5EEA7CFDBF4AC9648F /* EAIntroView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EAIntroView/EAIntroView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EAIntroView/EAIntroView.modulemap";
+				PRODUCT_MODULE_NAME = EAIntroView;
+				PRODUCT_NAME = EAIntroView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3BB02CE8CDB536C8DC996531FD3B3D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77077D19901B157EE184B62245BD718 /* Pods-EAIntroViewSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EAIntroViewSample/Pods-EAIntroViewSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EAIntroViewSample/Pods-EAIntroViewSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5527C8680CBBFF0A890B048902EA1094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966B5276DC2AAB50CD87EC32951D0E4F /* Pods-EAIntroViewSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EAIntroViewSample/Pods-EAIntroViewSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EAIntroViewSample/Pods-EAIntroViewSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58D14A5157FE1ED60131F874AE5C3884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD7FE4915FCCF5EEA7CFDBF4AC9648F /* EAIntroView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EAIntroView/EAIntroView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EAIntroView/EAIntroView.modulemap";
+				PRODUCT_MODULE_NAME = EAIntroView;
+				PRODUCT_NAME = EAIntroView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE91B4FC0698C1C7092D5814F77FF6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C78C83737D75C2E71BDB1921D18506 /* EARestrictedScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView.modulemap";
+				PRODUCT_MODULE_NAME = EARestrictedScrollView;
+				PRODUCT_NAME = EARestrictedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8FDF247718BB2616E83751DB8C24E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C78C83737D75C2E71BDB1921D18506 /* EARestrictedScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView.modulemap";
+				PRODUCT_MODULE_NAME = EARestrictedScrollView;
+				PRODUCT_NAME = EARestrictedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B27548BD0FBA0098B2293FD8C52991 /* Build configuration list for PBXNativeTarget "EAIntroView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A933485C92C7900B8D13B0908F485AF /* Debug */,
+				58D14A5157FE1ED60131F874AE5C3884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D187ACB7C441EFAAED646F821EC39D7B /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FDF247718BB2616E83751DB8C24E2E /* Debug */,
+				CE91B4FC0698C1C7092D5814F77FF6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07228769F7EF03D5FACEB93C0B893C1 /* Build configuration list for PBXNativeTarget "Pods-EAIntroViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5527C8680CBBFF0A890B048902EA1094 /* Debug */,
+				3BB02CE8CDB536C8DC996531FD3B3D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

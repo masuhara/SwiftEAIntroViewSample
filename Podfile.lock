@@ -1,0 +1,20 @@
+PODS:
+  - EAIntroView (2.12.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+
+DEPENDENCIES:
+  - EAIntroView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EAIntroView
+    - EARestrictedScrollView
+
+SPEC CHECKSUMS:
+  EAIntroView: 249559079ddfdbe80e5bcb755c04c3b964b2ac27
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+
+PODFILE CHECKSUM: b6265fab17e62a05cf2a457d47593995524c0eb7
+
+COCOAPODS: 1.7.0
